@@ -1,5 +1,6 @@
 import React, { CSSProperties } from "react";
 import { motion } from "framer-motion";
+import config from "../../config/config.json";
 
 const containerStyles: CSSProperties = {
   display: "grid",
@@ -23,91 +24,91 @@ const logoStyles = {
 
 const images = [
   {
-    src: "../../../public/images/js.svg",
+    src: `${config.site.base_url}/public/images/js.svg`,
     alt: "JS Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/nodejs.svg",
+    src: `${config.site.base_url}/public/images/nodejs.svg`,
     alt: "Node.js Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/express.svg",
+    src: `${config.site.base_url}/public/images/express.svg`,
     alt: "Express Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/go.svg",
+    src: `${config.site.base_url}/public/images/go.svg`,
     alt: "Go Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/php.svg",
+    src: `${config.site.base_url}/public/images/php.svg`,
     alt: "PHP Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/laravel.svg",
+    src: `${config.site.base_url}/public/images/laravel.svg`,
     alt: "Laravel Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/postgresql.svg",
+    src: `${config.site.base_url}/public/images/postgresql.svg`,
     alt: "Psql Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/mysql.svg",
+    src: `${config.site.base_url}/public/images/mysql.svg`,
     alt: "Mysql Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/mongo.svg",
+    src: "${config.site.base_url}/public/images/mongo.svg",
     alt: "Mongo Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/cockroachdb.svg",
+    src: `${config.site.base_url}/public/images/cockroachdb.svg`,
     alt: "Cockroachdb Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/prisma.svg",
+    src: `${config.site.base_url}/public/images/prisma.svg`,
     alt: "Prisma Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/sequelize.svg",
+    src: `${config.site.base_url}/public/images/sequelize.svg`,
     alt: "Sequelize Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/jest.svg",
+    src: `${config.site.base_url}/public/images/jest.svg`,
     alt: "Jest Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/mocha-chai.svg",
+    src: `${config.site.base_url}/public/images/mocha-chai.svg`,
     alt: "Jest Logo",
     width: 65,
     height: 65,
   },
   {
-    src: "../../../public/images/kafka.svg",
+    src: `${config.site.base_url}/public/images/kafka.svg`,
     alt: "Apache Kafka Logo",
     width: 65,
     height: 65,
