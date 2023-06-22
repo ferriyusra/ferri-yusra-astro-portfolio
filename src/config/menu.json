@@ -1,0 +1,24 @@
+{
+  "main": [
+    {
+      "id": "projects",
+      "name": "Projects",
+      "url": "/projects"
+    },
+    {
+      "id": "work-experiences",
+      "name": "Work Experiences",
+      "url": "/work-experiences"
+    },
+    {
+      "id": "contact-me",
+      "name": "Contact Me",
+      "url": "/contact-me"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Made with Astro"
+    }
+  ]
+}
