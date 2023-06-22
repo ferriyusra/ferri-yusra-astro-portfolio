@@ -43,7 +43,6 @@ const { title, meta_title, description, image, noindex, canonical } =
     />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <!-- google font css -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -53,24 +52,19 @@ const { title, meta_title, description, image, noindex, canonical } =
       rel="stylesheet"
     />
 
-    <!-- responsive meta -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=5"
     />
 
-    <!-- title -->
     <title>
       {plainify(meta_title ? meta_title : title ? title : config.site.title)}
     </title>
 
-    <!-- canonical url -->
     {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
 
-    <!-- noindex robots -->
     {noindex && <meta name="robots" content="noindex,nofollow" />}
 
-    <!-- meta-description -->
     <meta
       name="description"
       content={plainify(
@@ -78,10 +72,8 @@ const { title, meta_title, description, image, noindex, canonical } =
       )}
     />
 
-    <!-- author from config.json -->
     <meta name="author" content={config.metadata.meta_author} />
 
-    <!-- og-title -->
     <meta
       property="og:title"
       content={plainify(
@@ -89,7 +81,6 @@ const { title, meta_title, description, image, noindex, canonical } =
       )}
     />
 
-    <!-- og-description -->
     <meta
       property="og:description"
       content={plainify(
