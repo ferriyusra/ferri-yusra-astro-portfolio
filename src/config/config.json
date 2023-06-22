@@ -4,7 +4,7 @@
     "base_url": "https://ferri-portfolio.vercel.app/",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/public/images/ferri-resize.jpeg",
+    "favicon": "https://ferri-portfolio.vercel.app/public/images/ferri-resize.jpeg",
     "logo": "",
     "logo_darkmode": "",
     "logo_width": "150",
