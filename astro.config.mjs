@@ -12,8 +12,6 @@ import config from "./src/config/config.json";
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'server',
-  adapter: vercel(),
   site: config.site.base_url ? config.site.base_url : "https://ferri-portfolio.vercel.app/",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
@@ -57,4 +55,6 @@ export default defineConfig({
     },
     extendDefaultPlugins: true,
   },
+  output: 'server',
+  adapter: vercel(),
 });
