@@ -53,7 +53,7 @@ const images = [
     height: 65,
   },
   {
-    src: "/images/laravel.svg",
+    src: "/images/laravel-laravel.svg",
     alt: "Laravel Logo",
     width: 65,
     height: 65,
