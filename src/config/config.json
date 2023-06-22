@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Ferri Yusra - Backend Developer",
-    "base_url": "https://ferri-portfolio.vercel.app/",
+    "base_url": "https://ferri-portfolio.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/public/images/ferri-resize.jpeg",
