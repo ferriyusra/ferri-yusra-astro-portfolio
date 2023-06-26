@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Ferri Yusra"
-  content: "A Happy Backend Developer with 1 years of experience to help others grow in creating web service development using Node.Js and Go Programming Language with any tools and library."
+  content: "Backend Developer with 1 years of experience to help others grow in creating Web Service using Node.Js with Framework Express.Js, Go Programming and Web Application using PHP with Framework Laravel"
   button:
     enable: false
     label: "Get Started For Free"
